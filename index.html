@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="lib/konva.min.js"></script>
+  <meta charset="utf-8">
+  <title>test</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: url(./images/bg.png) no-repeat center center fixed;
+    }
+  </style>
+</head>
+<body>
+  <div id="container"></div>
+  <script>
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+    
+    var stage = new Konva.Stage({
+      container: 'container',
+      width: width,
+      height: height
+    });
+    var layer = new Konva.Layer();
+    stage.add(layer);
+	//img add
+	var Img5 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img5);
+    var Img1 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img1);
+    var Img2 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img2);
+	var Img4 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img4);
+
+	var Img6 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img6);
+	var Img7 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img7);
+	var Img8 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img8);
+	var Img3 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img3);
+	var Img9 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img9);
+	var Img10 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img10);
+	var Img11 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img11);
+	var Img12 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img12);
+	var Img13 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img13);
+	var Img14 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img14);
+	var Img15 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img15);
+	var Img16 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img16);
+	var Img17 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img17);
+	var Img18 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img18);
+	var Img19 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img19);
+	var Img20 = new Konva.Image({
+        x: 20,
+        y: 20,
+        draggable: true
+    });
+    layer.add(Img20);
+	
+	//load img
+    var imageObj1 = new Image();
+    imageObj1.onload = function() {
+        Img1.image(imageObj1);
+        layer.draw();
+    };
+    imageObj1.src = 'images/image1.jpg';
+    var imageObj2 = new Image();
+    imageObj2.onload = function() {
+        Img2.image(imageObj2);
+        layer.draw();
+    };
+    imageObj2.src = 'images/image2.jpg';
+	var imageObj3 = new Image();
+    imageObj3.onload = function() {
+        Img3.image(imageObj3);
+        layer.draw();
+    };
+    imageObj3.src = 'images/image3.jpg';
+	var imageObj4 = new Image();
+    imageObj4.onload = function() {
+        Img4.image(imageObj4);
+        layer.draw();
+    };
+    imageObj4.src = 'images/image4.jpg';
+	var imageObj5 = new Image();
+    imageObj5.onload = function() {
+        Img5.image(imageObj5);
+        layer.draw();
+    };
+    imageObj5.src = 'images/image5.jpg';
+	var imageObj6 = new Image();
+    imageObj6.onload = function() {
+        Img6.image(imageObj6);
+        layer.draw();
+    };
+    imageObj6.src = 'images/image6.jpg';
+	var imageObj7 = new Image();
+    imageObj7.onload = function() {
+        Img7.image(imageObj7);
+        layer.draw();
+    };
+    imageObj7.src = 'images/image7.jpg';
+	var imageObj8 = new Image();
+    imageObj8.onload = function() {
+        Img8.image(imageObj8);
+        layer.draw();
+    };
+    imageObj8.src = 'images/image8.jpg';
+	var imageObj9 = new Image();
+    imageObj9.onload = function() {
+        Img9.image(imageObj9);
+        layer.draw();
+    };
+    imageObj9.src = 'images/image9.jpg';
+	var imageObj10 = new Image();
+    imageObj10.onload = function() {
+        Img10.image(imageObj10);
+        layer.draw();
+    };
+    imageObj10.src = 'images/image10.jpg';
+	var imageObj11 = new Image();
+    imageObj11.onload = function() {
+        Img11.image(imageObj11);
+        layer.draw();
+    };
+    imageObj11.src = 'images/image11.jpg';
+	var imageObj12 = new Image();
+    imageObj12.onload = function() {
+        Img12.image(imageObj12);
+        layer.draw();
+    };
+    imageObj12.src = 'images/image12.jpg';
+	var imageObj13 = new Image();
+    imageObj13.onload = function() {
+        Img13.image(imageObj13);
+        layer.draw();
+    };
+    imageObj13.src = 'images/image13.jpg';
+	var imageObj14 = new Image();
+    imageObj14.onload = function() {
+        Img14.image(imageObj14);
+        layer.draw();
+    };
+    imageObj14.src = 'images/image14.jpg';
+	var imageObj15 = new Image();
+    imageObj15.onload = function() {
+        Img15.image(imageObj15);
+        layer.draw();
+    };
+    imageObj15.src = 'images/image15.jpg';
+	var imageObj16 = new Image();
+    imageObj16.onload = function() {
+        Img16.image(imageObj16);
+        layer.draw();
+    };
+    imageObj16.src = 'images/image16.jpg';
+	var imageObj17 = new Image();
+    imageObj17.onload = function() {
+        Img17.image(imageObj17);
+        layer.draw();
+    };
+    imageObj17.src = 'images/image17.jpg';
+	var imageObj18 = new Image();
+    imageObj18.onload = function() {
+        Img18.image(imageObj18);
+        layer.draw();
+    };
+    imageObj18.src = 'images/image18.jpg';
+	var imageObj19 = new Image();
+    imageObj19.onload = function() {
+        Img19.image(imageObj19);
+        layer.draw();
+    };
+    imageObj19.src = 'images/image19.jpg';
+	var imageObj20 = new Image();
+    imageObj20.onload = function() {
+        Img20.image(imageObj20);
+        layer.draw();
+    };
+    imageObj20.src = 'images/image20.jpg';
+    // use event delegation to update pointer style
+    // and apply borders
+    layer.on('mouseover', function(evt) {
+        var shape = evt.target;
+        document.body.style.cursor = 'pointer';
+        shape.strokeEnabled(false);
+        layer.draw();
+    });
+    layer.on('mouseout', function(evt) {
+        var shape = evt.target;
+        document.body.style.cursor = 'default';
+        shape.strokeEnabled(true);
+        layer.draw();
+    });
+  </script>
+</body>
+</html>
